@@ -53,13 +53,15 @@ table {
 }
 /*general styles*/
 html{
-    font-size:62.5%; /* 1 rem = 10px */
+    font-size:62.5%;
+    max-width: 100%; /* 1 rem = 10px */
 }
 body{
     max-width: 100%;
     line-height:1.5;
     font-size:1.8rem;
     color:#4F4f4f;
+    max-width: 100%;
 }
 h1, h2, h3{
     letter-spacing: 3px;
@@ -92,11 +94,11 @@ section{
     ddisplay: flex;
     justify-content: center;
     max-width: 100%;
-    margin-left: 15rem;
-    margin-right: 15rem;
+    /* margin-left: rem;
+    margin-right: 20rem;  */
     background-color: pink;
     height: 30rem;
-
+    align-items: center;
 }
 
 a nav{
@@ -104,7 +106,7 @@ a nav{
    justify-content: center;
    align-items: center;
    display-direction: column;
-   width: 50%;
+   max-width: 50%;
     background-color:pink;
     padding: 1rem;
     height: 15rem;
@@ -122,7 +124,7 @@ a nav{
     text-align: center;
     padding: 5px;
     max-width: 100%;
-    margin-left:30rem;
+    margin-left:5rem;
 }
 
 .container{
@@ -130,8 +132,8 @@ a nav{
     align-items: center;
     justify-content: center;
     display-direction: column; 
-    margin-left: 15rem;
-    margin-right: 15rem;  
+    /* margin-left: 30rem; */
+    /* margin-right: 30rem;   */
     max-width: 100%;
 }
 
@@ -144,14 +146,14 @@ a nav{
     color: black;
     padding: 5px;
     max-width: 100%;
-    margin-left: 38rem;
-    margin-right: 38rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
 }
 
 p{
     text-align: center;
-    margin-left: 15rem;
-    margin-right: 15rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     max-width: 100%;
 }
 .rowonepictures{
@@ -176,6 +178,7 @@ p{
     display: flex;
     justify-content:space-evenly;
     padding: 0;
+    max-width: 100%;
 }
 .pic1, .pic2{
     display: float;
@@ -213,6 +216,8 @@ p{
     display: flex-wrap;
     justify-content: center;
     align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .contactme{
@@ -224,15 +229,15 @@ p{
     color: black;
     padding: 5px;
     max-width: 100%;
-    margin-left: 45rem;
-    margin-right: 45rem;  
+    margin-left:10rem;
+    margin-right: 10rem;  
     padding: 2px;
     margin-bottom: 2px;
 }
 
 @media screen and (max-width: 800px) {
     body{
-        background-color: grey;
+        background-color: lightgrey;
     }
 }
 
